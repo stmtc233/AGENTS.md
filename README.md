@@ -40,7 +40,7 @@ cp templates/PROJECT_CONTEXT.md "$TARGET/"
 | [AGENTS.md](AGENTS.md) | 核心规则和专题路由，每次任务都会读 |
 | [CLAUDE.md](CLAUDE.md) | Claude Code 的入口，只引用 `AGENTS.md` |
 | [docs/agents/](docs/agents/) | 按主题拆分的细则，只在任务涉及时读取 |
-| [templates/PROJECT_CONTEXT.md](templates/PROJECT_CONTEXT.md) | 项目事实模板：术语、目录、命令、约定、经验 |
+| [templates/PROJECT_CONTEXT.md](templates/PROJECT_CONTEXT.md) | 项目事实模板：术语、目录、命令、约定、关键约束、改动路由、经验 |
 | [prompts/ADOPT.md](prompts/ADOPT.md) | 让 AI 把本规范接入项目的提示词，接入时用一次 |
 
 ## 定制
